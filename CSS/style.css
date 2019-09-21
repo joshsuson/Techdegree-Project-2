@@ -1,0 +1,315 @@
+/*
+======================
+BASE stylesheet
+======================
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #fafafa;
+  padding: 10px 0px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+#portfolio img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+#top img {
+  width: 65%;
+  max-width: 275px;
+
+}
+
+#top {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.main-nav {
+  padding: 0 15px;
+}
+
+.main-nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: .95em;
+  text-transform: uppercase;
+  background-color: white;
+  margin: 5px 0;
+  padding: 15px;
+  color: #4a4a4a;
+}
+ .main-nav li:hover {
+  border-bottom: solid 2px #4a4a4a;
+}
+
+.footer-nav li:hover {
+  border-bottom: solid 2px #4a4a4a;
+}
+
+a:visited {
+  color: #4a4a4a  ;
+}
+
+.profile {
+  padding: 20px 15px;
+  color: grey;
+  font-weight: 300;
+}
+
+#portfolio {
+  background-color: white;
+  padding: 15px;
+  width: 100%;
+  color: grey;
+
+}
+
+#portfolio h2 {
+  color: #4a4a4a;
+}
+
+#skills {
+  background-color: white;
+  padding: 15px;
+}
+
+#skills h2 {
+  color: #4a4a4a;
+}
+
+#contact {
+  color: grey;
+}
+
+#contact h2 {
+  color: #4a4a4a
+}
+
+.page-headers {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  margin: 25px 0;
+  padding: 15px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+#portfolio p {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.footer-nav {
+  display: none;
+}
+
+hr {
+  margin: 65px 15px 0px 15px;
+  border-bottom: solid .5px lightgrey;
+}
+
+#skills div {
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.html-skill {
+  background-color: #C7C3C3;
+}
+
+.css-skill {
+  background-color: #85AEA1;
+}
+
+.java-skill {
+  background-color: #E4AE61;
+}
+
+.graphic-skill {
+  background-color: #99887D;
+}
+
+.content-skill {
+  background-color: #B3586D;
+}
+
+footer {
+  padding: 5px;
+}
+
+.footer-name {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  float: left;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+.footer-mobile-nav {
+  font-size: .75em;
+  font-weight: 800;
+  float: right;
+  color: grey;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 25px 15px;
+  }
+
+
+.group:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+h1 {
+  color: #85AEA1;
+}
+
+#contact {
+  padding: 15px;
+}
+
+
+/*======================
+Tablet Screen
+========================*/
+
+@media (min-width: 768px) {
+
+.main-nav li {
+  display: inline;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+#top img {
+  float: right;
+  margin: 0 0 35px 15px;
+}
+
+#top p {
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+  font-size: 1.25em;
+}
+
+.profile {
+  padding: 25px;
+}
+
+.port-items {
+  width: 50%;
+  padding: 8px;
+}
+
+.left-col {
+  float: left;
+}
+
+.right-col {
+  float: right;
+}
+
+.skill-items {
+  width: 47%;
+  padding: 8px;
+}
+
+.footer-mobile-nav {
+  display: none;
+}
+
+.footer-nav {
+  display: inline-block;
+  float: right;
+}
+
+.footer-nav li {
+  display: inline;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.footer-nav ul {
+  margin: 0;
+}
+
+footer {
+  margin-bottom: 25px;
+}
+
+#contact {
+  padding: 15px 100px;
+}
+
+
+}
+
+/*=================
+Desktop Screen
+==================*/
+
+@media (min-width: 1024px) {
+
+#top h1 {
+  float: left;
+  font-size: 1.25em;
+  margin-top: 10px;
+  padding: 0 50px;
+}
+
+.main-nav {
+  float: right;
+  padding: 0 50px;
+}
+
+#top img {
+  max-width: 375px;
+}
+
+.profile {
+  padding: 50px;
+}
+
+#top p {
+  text-align: left;
+}
+
+.port-items {
+  width: 33.3%;
+}
+
+#contact {
+padding: 15px 200px;
+}
+
+}
